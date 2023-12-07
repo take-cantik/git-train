@@ -27,6 +27,7 @@ class CreateArticleUseCase
     public function execute(object $createArticleDto): void
     {
         $pdo = new \PDO('');
+        // ahi
 
         $pdo->beginTransaction();
 
